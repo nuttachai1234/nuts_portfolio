@@ -1,0 +1,51 @@
+<!--================ Start Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>My Skill</h2>
+                <div class="page_link">
+                    <a href="/">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Banner Area =================-->
+
+<section class="about_area section_gap">
+    <div class="container">
+        <div class="row justify-content-start align-items-center">
+            <h2>Language</h2>
+            <div class="col-md-12">
+                {{#each myData.languages}}
+                <div class="progress-wrap">
+                    <p><span class="name-left">{{this.language}}</span></p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-{{this.order}} progress-bar-striped active"
+                            role="progressbar" aria-valuenow="{{this.percent}}" aria-valuemin="0" aria-valuemax="100"
+                            style="width:{{this.percent}}%">
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+                <br> <br>
+            </div>
+            <h2>My Skills</h2>
+            <div class="col-md-12">
+                {{#each myData.skills}}
+                <div class="progress-wrap">
+                    <p><span class="name-left">{{this.skill}}</span></p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-{{this.order}} progress-bar-striped active"
+                            role="progressbar" aria-valuenow="{{this.percent}}" aria-valuemin="0" aria-valuemax="100"
+                            style="width:{{this.percent}}%"> <span>{{this.percent}}%</span>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>

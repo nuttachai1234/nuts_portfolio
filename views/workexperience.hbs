@@ -1,0 +1,40 @@
+<!--================ Start Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>Work Experience</h2>
+                <div class="page_link">
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Banner Area =================-->
+<section class="about_area section_gap">
+    <div class="container">
+        <div class="row justify-content-start align-items-center">
+            <div class="col-lg-5">
+                <div class="about_img">
+                    <img class="" src="img/about-us.png" alt="">
+                </div>
+            </div>
+            <div class="offset-lg-1 col-lg-5">
+                <div class="main_title text-left">
+                    {{#each myData.experience}}
+                    <div class="fh5co-feature">
+                        <div class="fh5co-text">
+                            <h2>{{this.title}}  </h2>
+                            <h3>({{this.period}})</h3>
+                            <h4>{{this.organization}} </h4>
+                            <p style="font-size: 14px;">{{this.description}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
