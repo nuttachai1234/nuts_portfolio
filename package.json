@@ -1,20 +1,30 @@
 {
-    "name": "cv",
+    "name": "sirinrat_portfolio",
     "version": "1.0.0",
-    "description": "",
+    "description": "portfolio",
     "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "engines": {
-        "node": "12.18.0",
-        "npm": "6.14.4"
-    },
-    "author": "Suphada Thongthai",
-    "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
-        "express-handlebars": "^5.1.0"
-    }
-
+        "express-handlebars": "^5.1.0",
+        "nodemon": "^2.0.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "v12.18.0",
+        "npm": "6.14.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kalum-k/Sirinrat_portfolio.git"
+    },
+    "author": "sirinrat",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kalum-k/Sirinrat_portfolio/issues"
+    },
+    "homepage": "https://github.com/kalum-k/Sirinrat_portfolio#readme"
 }
