@@ -1,23 +1,33 @@
 const data = {
-    "name": "Sirinrat Panpradid",
-    "nickname": "Hna",
+    "name": "Nuttachai Subangate",
+    "nickname": "P",
     "work": "Student at Software Engineering ,Faculty of Science and Technology Nakhon Pathom Rajabhat University",
     "aboutme": {
-        "FullName": "Sirinrat Panpradid",
-        "Nickname": "Hna",
-        "Phone": "(+66) 95 863 8389",
-        "Email": "go.line334g@gmail.com",
-        "Address": "129 m.8 Bangpla tumbhol Banglen umphor Nakhon Pathon province"
+        "FullName": "Nuttachai Subangate",
+        "Nickname": "P",
+        "Phone": "(+66) 99 052 2709",
+        "Email": "nuttachai2543@gmail.com",
+        "Address": "109 m.7 Bang-Phae Distric Ratchaburi Province"
     },
     education: [{
             degree: "Student",
-            school: "WatKhorat Upaipetpitayakarn School",
-            duration: "2005 - 2011",
+            school: "Prathong Wiitaya School Chanthaburi",
+            duration: "2004 - 2007",
         },
         {
             degree: "Student",
-            school: "Kongthong wittaya School",
-            duration: "2012 - 2017",
+            school: "Yamwittayakarn School Ratchaburi",
+            duration: "2008 - 2010",
+        },
+        {
+            degree: "Student",
+            school: "Nariwittaya School Ratchaburi",
+            duration: "2010 - 2012",
+        },
+        {
+            degree: "Student",
+            school: "Phothawattanasenee School Ratchaburi",
+            duration: "2012 - 2018",
         },
         {
             degree: "Student",
@@ -27,24 +37,16 @@ const data = {
     ],
     "skills": [{
             skill: "Java",
-            percent: "51"
+            percent: "70"
         },
         {
             skill: "PHP/MySQL",
-            percent: "40"
-        },
-        {
-            skill: "Node.js",
-            percent: "35"
+            percent: "60"
         },
         {
             skill: "HTML/CSS",
             percent: "60"
-        },
-        {
-            skill: "React Native",
-            percent: "35"
-        },
+        }
     ],
     languages: [{
             language: "Thai",
@@ -52,19 +54,14 @@ const data = {
             order: "1"
         },
         {
-            language: "japan",
-            percent: "20",
+            language: "French",
+            percent: "60",
             order: "2"
-        },
-        {
-            language: "korea",
-            percent: "20",
-            order: "3"
         },
         {
             language: "English",
             percent: "50",
-            order: "4"
+            order: "3"
         }
     ],
     experience: [{
@@ -72,12 +69,6 @@ const data = {
             organization: "Nakhon Pathom Rajabhat University",
             period: "2018 - Current",
             description: "Student at Software Engineering ,Faculty of Science and Technology Nakhon Pathom Rajabhat University."
-        },
-        {
-            title: "Student",
-            organization: "Kongthong wittaya School",
-            period: "2012 - 2017",
-            description: "Student at Kongthong wittaya School"
         }
     ]
 
